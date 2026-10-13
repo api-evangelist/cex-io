@@ -1,0 +1,31 @@
+name: CEX.IO API Rate Limits
+generated: '2026-10-13'
+method: searched
+source: https://trade.cex.io/docs/
+limits:
+- name: Spot Trading public API calls
+  window: 1 minute
+  max: 100
+  scope: per IP address
+  limit_text: "CEX.IO Spot Trading limits Public API calls to maximum of 100 points per minute"
+  status_on_exhaustion: 429
+  source: https://trade.cex.io/docs/
+- name: Spot Trading private API calls
+  window: 1 minute
+  max: 200
+  scope: per API key
+  limit_text: "CEX.IO Spot Trading limits Private API calls to maximum of 200 points per minute"
+  status_on_exhaustion: 429
+  source: https://trade.cex.io/docs/
+- name: Legacy Exchange REST public methods
+  window: 10 minutes
+  max: 600
+  scope: per client
+  limit_text: "REST API public methods are limited with 600 requests per 10 minutes"
+  source: https://docs.cex.io/
+- name: Legacy Exchange REST private methods
+  window: 10 minutes
+  max: 2000
+  scope: per client
+  limit_text: "Private methods are limited with 2000 requests per 10 minutes"
+  source: https://docs.cex.io/

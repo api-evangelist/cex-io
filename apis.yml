@@ -1,23 +1,125 @@
 aid: cex-io
 name: CEX.IO
-description: 'CEX.IO is a company surfaced via the API Evangelist harvest backlog (source: market-gap:crypto-exchanges)
-  and added to the network as a stub for full-pipeline profiling.'
+image: https://static.cex.io/img/landing-img/index.png
+description: 'CEX.IO is a cryptocurrency exchange founded in 2013 offering spot trading, buying and selling crypto with cards and bank transfers, staking and earn products, and a Prime brokerage service. It publishes two developer surfaces: the CEX.IO Spot Trading API (REST and WebSocket under trade.cex.io/api/spot) and the legacy CEX.IO Exchange API (REST under cex.io/api and WebSocket at ws.cex.io), both authenticated with API keys and HMAC signatures.'
 url: https://raw.githubusercontent.com/api-evangelist/cex-io/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:market-gap:crypto-exchanges
-x-tier: stub
-x-tier-reason: harvest
+x-tier: profiled
 specificationVersion: '0.20'
 created: '2026-10-13'
 modified: '2026-10-13'
 tags:
 - Company
-apis: []
+- Cryptocurrency
+- Exchanges
+- Trading
+- Market Data
+- WebSockets
+- Financial Services
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: RateLimits
+  url: rate-limits/cex-io-rate-limits.yml
+- type: Spectral
+  url: rules/cex-io-rules.yml
+- type: Vocabulary
+  url: vocabulary/cex-io-vocabulary.yml
+- type: Authentication
+  url: authentication/cex-io-authentication.yml
+- type: ErrorCatalog
+  url: errors/cex-io-problem-types.yml
+- type: Conformance
+  url: conformance/cex-io-conformance.yml
+- type: LLMsTxt
+  url: llms/cex-io-llms.txt
+- type: SecurityTxt
+  url: well-known/cex-io-support-security.txt
+- type: WellKnown
+  url: well-known/cex-io-well-known.yml
+- type: Hosts
+  url: hosts/cex-io-hosts.yml
+- type: Vendors
+  url: vendors/cex-io-vendors.yml
+- type: SDKs
+  url: packages/cex-io-packages.yml
+- type: Packages
+  url: packages/cex-io-packages.yml
+- type: Newsroom
+  url: https://cex.io/press
+- type: Leadership
+  url: https://cex.io/team
+- type: DomainSecurity
+  url: security/cex-io-domain-security.yml
 - type: Website
   url: https://cex.io
+- type: Documentation
+  url: https://docs.cex.io/
+- type: APIReference
+  url: https://trade.cex.io/docs/
+- type: GettingStarted
+  url: https://support.cex.io/en/articles/4383397-getting-started
+- type: Support
+  url: https://support.cex.io/en/
+- type: Pricing
+  url: https://cex.io/prices
+- type: TermsOfService
+  url: https://cex.io/terms
+- type: PrivacyPolicy
+  url: https://cex.io/legal/privacy
+- type: Blog
+  url: https://blog.cex.io/
+- type: GitHubOrganization
+  url: https://github.com/cexiolabs
+apis:
+- aid: cex-io:cex-io-spot-trading-api
+  name: CEX.IO Spot Trading API
+  description: 'REST and WebSocket API for the CEX.IO Spot Trading platform: public market data (order books, candles, tickers, trade history) and private account, order and funding operations, signed with API key and HMAC.'
+  humanURL: https://trade.cex.io/docs/
+  baseURL: https://trade.cex.io/api/spot/rest
+  tags:
+  - Trading
+  - Market Data
+  - Cryptocurrency
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/cex-io-spot-private-openapi-generated.yml
+  - type: OpenAPI
+    url: openapi/_ae-authored/cex-io-spot-public-openapi-generated.yml
+  - type: Documentation
+    url: https://trade.cex.io/docs/
+  image: https://static.cex.io/img/landing-img/index.png
+- aid: cex-io:cex-io-exchange-api
+  name: CEX.IO Exchange API (legacy)
+  description: The original CEX.IO Exchange REST API at cex.io/api (tickers, order book, OHLCV, balance, place/cancel order, trade history) with a WebSocket API at wss://ws.cex.io/ws/.
+  humanURL: https://docs.cex.io/
+  baseURL: https://cex.io/api
+  tags:
+  - Trading
+  - Market Data
+  - Cryptocurrency
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/cex-io-exchange-legacy-openapi-generated.yml
+  - type: Documentation
+    url: https://docs.cex.io/
+  image: https://static.cex.io/img/landing-img/index.png
+x-coverage:
+  state: none
+  reason: no-developer-program
+  method: derived
+  generated: '2026-10-13'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: the company publishes no developer documentation host and no machine-readable contract on its own domain
+  evidence:
+  - url: https://cex.io
+    status: 200
+x-enrichment:
+  date: '2026-10-13'
+  status: enriched
+  artifacts_added: 12
+  pass: local-v5

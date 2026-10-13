@@ -1,0 +1,25 @@
+generated: '2026-10-13'
+method: derived
+generator: derive-problem-types.py
+source:
+- openapi/_ae-authored/cex-io-exchange-legacy-openapi-generated.yml
+format: custom
+envelope:
+  media_type: null
+  schema: null
+coverage:
+  operations: 27
+  statuses_declared: 2
+problems:
+- status: 400
+  title: Bad Request
+  description: Bad Request
+  operations: 27
+  media_types: []
+  schema: null
+- status: 429
+  title: Too Many Requests
+  description: API rate limit exceeded
+  operations: 27
+  media_types: []
+  schema: null

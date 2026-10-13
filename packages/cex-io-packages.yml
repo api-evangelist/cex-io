@@ -1,0 +1,43 @@
+generated: '2026-10-13'
+method: probed
+generator: harvest-packages.py
+source: registry metadata endpoints (registry.npmjs.org, pypi.org, rubygems.org, api.nuget.org, packagist.org, crates.io)
+ownership_rule: 'official: true only when the registry metadata (homepage, repository, author, URLs) names the provider''s domain (cex.io, security/cex-io-domain-security.yml) or its accepted GitHub org.'
+packages:
+- name: cexio
+  registry: npm
+  url: https://www.npmjs.com/package/cexio
+  language: JavaScript
+  official: false
+  version: 0.0.5
+  published: '2014-01-27'
+  evidence: metadata names cex.io
+  note: Community library (maintainer is not CEX.IO; repository on a personal GitHub account).
+- name: cexio
+  registry: pypi
+  url: https://pypi.org/project/cexio/
+  language: Python
+  official: false
+  version: 0.1.9
+  published: '2021-08-09'
+  evidence: metadata names cex.io
+  note: Community library (maintainer is not CEX.IO; repository on a personal GitHub account).
+- name: cexio
+  registry: rubygems
+  url: https://rubygems.org/gems/cexio
+  language: Ruby
+  official: false
+  version: 0.0.6
+  published: '2014-05-05'
+  evidence: metadata names cex.io
+  note: Community library (maintainer is not CEX.IO; repository on a personal GitHub account).
+- name: cexio
+  registry: crates
+  url: https://crates.io/crates/cexio
+  language: Rust
+  official: false
+  version: 0.5.3
+  published: '2020-07-30'
+  evidence: metadata names cex.io
+  note: Community library (maintainer is not CEX.IO; repository on a personal GitHub account).
+note: No first-party CEX.IO SDK found; all registry hits are community packages.

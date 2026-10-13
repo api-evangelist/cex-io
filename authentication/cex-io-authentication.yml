@@ -1,0 +1,17 @@
+generated: '2026-10-13'
+method: searched
+source: https://trade.cex.io/docs/
+docs: https://trade.cex.io/docs/
+summary: CEX.IO Spot Trading private REST calls are signed with an API key and secret using HMAC-SHA256 headers; public calls need no authentication. The legacy Exchange API at cex.io/api uses its own API key, signature and nonce scheme documented at docs.cex.io.
+schemes:
+- name: XAggrSignedRequest
+  type: apiKey
+  in: header
+  headers: [X-AGGR-KEY, X-AGGR-TIMESTAMP, X-AGGR-SIGNATURE]
+  description: Per the docs code example, signature = base64(HMAC-SHA256(apiSecret, action + timestamp + JSON body)), sent with the API key and UNIX timestamp headers to https://trade.cex.io/api/spot/rest/{action}.
+  sources: [https://trade.cex.io/docs/]
+- name: LegacyKeySignatureNonce
+  type: apiKey
+  in: body
+  description: Legacy Exchange API private methods carry key, signature and nonce (docs.cex.io lists APIkey, nonce and signature request objects).
+  sources: [https://docs.cex.io/]

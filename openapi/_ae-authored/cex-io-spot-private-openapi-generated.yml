@@ -1,0 +1,508 @@
+openapi: 3.1.0
+info:
+  title: CEX.IO Spot Trading Private REST API
+  version: '2026-10-13'
+  description: Private (API-key signed) REST calls of the CEX.IO Spot Trading API. Limited per API key to 200 points per minute; 429 on exhaustion (per docs).
+  contact:
+    url: https://support.cex.io/en/
+  termsOfService: https://cex.io/terms
+servers:
+- url: https://trade.cex.io/api/spot/rest
+externalDocs:
+  url: https://trade.cex.io/docs/
+x-generated:
+  method: generated
+  from: documentation
+  engine: hand-transcribed by enrichment agent (claude-opus-5-5)
+  date: '2026-10-13'
+  note: No machine-readable contract is published by CEX.IO. Every path below appears verbatim on the cited docs page; request/response schemas are NOT modelled and must be read from the docs.
+tags:
+- name: Accounts
+- name: Fees
+- name: Funding
+- name: History
+- name: Market Data
+- name: Orders
+paths:
+  /get_my_current_fee:
+    post:
+      operationId: get_my_current_fee
+      summary: Current Fee
+      tags:
+      - Fees
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_fee_strategy:
+    post:
+      operationId: get_fee_strategy
+      summary: Fee Strategy
+      tags:
+      - Fees
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_my_volume:
+    post:
+      operationId: get_my_volume
+      summary: Volume
+      tags:
+      - Fees
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /do_create_account:
+    post:
+      operationId: do_create_account
+      summary: Create Account
+      tags:
+      - Accounts
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_my_account_status_v3:
+    post:
+      operationId: get_my_account_status_v3
+      summary: Account Status V3
+      tags:
+      - Accounts
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_my_account_status_v2:
+    post:
+      operationId: get_my_account_status_v2
+      summary: Account Status V2 (deprecated)
+      tags:
+      - Accounts
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      deprecated: true
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_my_wallet_balance:
+    post:
+      operationId: get_my_wallet_balance
+      summary: Wallet Balance
+      tags:
+      - Accounts
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_my_orders:
+    post:
+      operationId: get_my_orders
+      summary: Orders
+      tags:
+      - Orders
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /do_my_new_order:
+    post:
+      operationId: do_my_new_order
+      summary: New Order
+      tags:
+      - Orders
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /do_cancel_my_order:
+    post:
+      operationId: do_cancel_my_order
+      summary: Cancel Order
+      tags:
+      - Orders
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /do_cancel_all_orders:
+    post:
+      operationId: do_cancel_all_orders
+      summary: Cancel All Orders
+      tags:
+      - Orders
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_order_book:
+    post:
+      operationId: get_order_book
+      summary: Order Book
+      tags:
+      - Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_ticker:
+    post:
+      operationId: get_ticker
+      summary: Ticker
+      tags:
+      - Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_candles:
+    post:
+      operationId: get_candles
+      summary: Candles
+      tags:
+      - Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_trade_history:
+    post:
+      operationId: get_trade_history
+      summary: Trade History
+      tags:
+      - Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_my_transaction_history:
+    post:
+      operationId: get_my_transaction_history
+      summary: Transaction History
+      tags:
+      - History
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_my_funding_history:
+    post:
+      operationId: get_my_funding_history
+      summary: Funding History
+      tags:
+      - History
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /do_my_internal_transfer:
+    post:
+      operationId: do_my_internal_transfer
+      summary: Internal Transfer
+      tags:
+      - Funding
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_processing_info:
+    post:
+      operationId: get_processing_info
+      summary: Processing Info
+      tags:
+      - Funding
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_deposit_address:
+    post:
+      operationId: get_deposit_address
+      summary: Deposit Address
+      tags:
+      - Funding
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /do_deposit_funds_from_wallet:
+    post:
+      operationId: do_deposit_funds_from_wallet
+      summary: Funds Deposit from Wallet
+      tags:
+      - Funding
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /do_withdrawal_funds_to_wallet:
+    post:
+      operationId: do_withdrawal_funds_to_wallet
+      summary: Funds Withdrawal to Wallet
+      tags:
+      - Funding
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+components:
+  securitySchemes:
+    XAggrKey:
+      type: apiKey
+      in: header
+      name: X-AGGR-KEY
+    XAggrTimestamp:
+      type: apiKey
+      in: header
+      name: X-AGGR-TIMESTAMP
+    XAggrSignature:
+      type: apiKey
+      in: header
+      name: X-AGGR-SIGNATURE
+      description: base64 HMAC-SHA256 of action + timestamp + JSON body, keyed with the API secret (per docs example).
+security:
+- XAggrKey: []
+  XAggrTimestamp: []
+  XAggrSignature: []

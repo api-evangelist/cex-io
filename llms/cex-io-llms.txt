@@ -1,0 +1,409 @@
+# CEX.IO Help Centre
+
+> Help center for CEX.IO
+
+## English
+
+### Getting Started & Verification
+
+- [Getting Started](http://support.cex.io/en/articles/4383397-getting-started.md): A step-by-step guide on how to create an account and start buying, trading, and earning cryptocurrencies.
+- [CEX.IO VIP Services](http://support.cex.io/en/articles/12069901-cex-io-vip-services.md)
+- [Password requirements and recommendations](http://support.cex.io/en/articles/5459997-password-requirements-and-recommendations.md): Find some essential requirements and recommendations for a password to your CEX.IO account.
+- [How to Enable Two-factor Authentication \(2FA\) for Your CEX.IO Account](http://support.cex.io/en/articles/4814825-how-to-enable-two-factor-authentication-2fa-for-your-cex-io-account.md)
+- [How to add and send funds on CEX.IO](http://support.cex.io/en/articles/4383422-how-to-add-and-send-funds-on-cex-io.md)
+- [Payment methods at CEX.IO](http://support.cex.io/en/articles/5441769-payment-methods-at-cex-io.md)
+- [How do I find my User ID/Username?](http://support.cex.io/en/articles/4383393-how-do-i-find-my-user-id-username.md)
+- [Benefits of the 2-Factor Authenticator App over SMS](http://support.cex.io/en/articles/6616407-benefits-of-the-2-factor-authenticator-app-over-sms.md)
+- [Account Verification Guide for Website: Identity Verification](http://support.cex.io/en/articles/11632332-account-verification-guide-for-website-identity-verification.md)
+- [Identity Verification FAQ](http://support.cex.io/en/articles/10022396-identity-verification-faq.md): Find answers to the most common questions about our Identity Verification procedure.
+- [How to make ID confirmation photos](http://support.cex.io/en/articles/4383388-how-to-make-id-confirmation-photos.md)
+- [Address Verification on CEX.IO](http://support.cex.io/en/articles/4383384-address-verification-on-cex-io.md): A step-be-step guide on how to verify your address and access wider range of payment methods.
+- [What is TIN?](http://support.cex.io/en/articles/5661903-what-is-tin.md)
+- [Why was I rejected at CEX.IO if I successfully passed AML/KYC at other exchanges?](http://support.cex.io/en/articles/4783555-why-was-i-rejected-at-cex-io-if-i-successfully-passed-aml-kyc-at-other-exchanges.md)
+- [What are AML and KYC?](http://support.cex.io/en/articles/4527857-what-are-aml-and-kyc.md)
+- [What will I get if I pass AML/KYC check?](http://support.cex.io/en/articles/4783547-what-will-i-get-if-i-pass-aml-kyc-check.md)
+- [Proof of address requirements](http://support.cex.io/en/articles/12087295-proof-of-address-requirements.md)
+- [Payment Card Verification Guide](http://support.cex.io/en/articles/4383448-payment-card-verification-guide.md)
+- [Payment Cards Guide](http://support.cex.io/en/articles/4383416-payment-cards-guide.md)
+- [How to submit a selfie with a card \(FAQ\)](http://support.cex.io/en/articles/5858966-how-to-submit-a-selfie-with-a-card-faq.md): To verify your debit/credit card, you may be asked to upload a selfie of yourself holding the card. Here is how to do this.
+- [Why was my card verification rejected?](http://support.cex.io/en/articles/4383420-why-was-my-card-verification-rejected.md)
+- [Payment Card Verification Request during funds withdrawal](http://support.cex.io/en/articles/9352301-payment-card-verification-request-during-funds-withdrawal.md)
+
+### Account security & Profile
+
+- [How can I update the email address linked to my CEX.IO account?](http://support.cex.io/en/articles/11722085-how-can-i-update-the-email-address-linked-to-my-cex-io-account.md)
+- [Where can I see my connected devices?](http://support.cex.io/en/articles/9791045-where-can-i-see-my-connected-devices.md)
+- [How to Change Country of Residence on CEX.IO](http://support.cex.io/en/articles/15868528-how-to-change-country-of-residence-on-cex-io.md)
+- [Two-factor authentication \(2FA\) troubleshooting tips](http://support.cex.io/en/articles/4383389-two-factor-authentication-2fa-troubleshooting-tips.md): We’ve prepared a list of the most frequent situations with 2FA and troubleshooting steps to sort them out.
+- [2FA Recovery Guide: Lost or Damaged Phone/Device](http://support.cex.io/en/articles/4383396-2fa-recovery-guide-lost-or-damaged-phone-device.md): If your device has recently become lost or damaged, follow this guide to find out how to regain access to your CEX.IO account.
+- [How to change phone number for receiving 2FA codes](http://support.cex.io/en/articles/4383381-how-to-change-phone-number-for-receiving-2fa-codes.md)
+- [How to change the device for 2FA codes \(Authenticator App method\)](http://support.cex.io/en/articles/9352322-how-to-change-the-device-for-2fa-codes-authenticator-app-method.md): The approach described below will only work if you have access to the device that is currently generating the 2FA codes.
+- [How to restore access to your CEX.IO account if you lose your Authentication \(2FA\) device](http://support.cex.io/en/articles/5029000-how-to-restore-access-to-your-cex-io-account-if-you-lose-your-authentication-2fa-device.md): If you lose access to your 2FA-generating device, or can't receive code via SMS, submit 2FA recovery form to restore access to the account
+- [What do I do if my 2FA token is always invalid?](http://support.cex.io/en/articles/4383400-what-do-i-do-if-my-2fa-token-is-always-invalid.md)
+- [The following countries and territories are not currently supported by CEX.IO](http://support.cex.io/en/articles/4560858-the-following-countries-and-territories-are-not-currently-supported-by-cex-io.md)
+- [CEX.IO Earn \(Savings & Staking\) supported countries and territories](http://support.cex.io/en/articles/5080354-cex-io-earn-savings-staking-supported-countries-and-territories.md)
+- [Source of Funds](http://support.cex.io/en/articles/5679414-source-of-funds.md)
+- [Why do we ask to confirm the origin of funds?](http://support.cex.io/en/articles/4383380-why-do-we-ask-to-confirm-the-origin-of-funds.md)
+- [I think my account got hacked, what do I do?](http://support.cex.io/en/articles/4383403-i-think-my-account-got-hacked-what-do-i-do.md)
+- [I’ve got an Authorization email but I didn’t log in. What to do?](http://support.cex.io/en/articles/4383404-i-ve-got-an-authorization-email-but-i-didn-t-log-in-what-to-do.md)
+- [How to protect against spoofing attacks](http://support.cex.io/en/articles/6545302-how-to-protect-against-spoofing-attacks.md)
+
+### Finance
+
+- [Guide on Withdrawal Hold](http://support.cex.io/en/articles/14057769-guide-on-withdrawal-hold.md)
+- [What is the Crypto Travel Rule](http://support.cex.io/en/articles/15564683-what-is-the-crypto-travel-rule.md)
+- [How to deposit fiat funds with a credit or debit card](http://support.cex.io/en/articles/4383414-how-to-deposit-fiat-funds-with-a-credit-or-debit-card.md): Deposit USD, EUR, GBP instantly using your Visa or Mastercard debit or credit card.
+- [How to buy crypto instantly with your debit/credit card](http://support.cex.io/en/articles/4383479-how-to-buy-crypto-instantly-with-your-debit-credit-card.md): Buy your preferred cryptocurrency in a few clicks using the most convenient payment method.
+- [Why is my payment on pending status?](http://support.cex.io/en/articles/4383463-why-is-my-payment-on-pending-status.md)
+- [Can I use a prepaid card?](http://support.cex.io/en/articles/4383419-can-i-use-a-prepaid-card.md)
+- [Guide to Funding Your CEX.IO Account with ACH \(Bank Transfer\)](http://support.cex.io/en/articles/13186642-guide-to-funding-your-cex-io-account-with-ach-bank-transfer.md)
+- [How to Use ACH Bank Transfers on CEX.IO](http://support.cex.io/en/articles/13753401-how-to-use-ach-bank-transfers-on-cex-io.md)
+- [Troubleshooting Card Payment Declines](http://support.cex.io/en/articles/14471689-troubleshooting-card-payment-declines.md)
+- [Can I deposit if my payment card has other currency?](http://support.cex.io/en/articles/4383443-can-i-deposit-if-my-payment-card-has-other-currency.md)
+- [Where can I find my wallet address?](http://support.cex.io/en/articles/5605701-where-can-i-find-my-wallet-address.md): The crypto wallet addresses can be found on the Wallet page \(website\) and Wallet tab in the CEX.IO App.
+- [How to deposit cryptocurrencies to CEX.IO Wallet](http://support.cex.io/en/articles/8948960-how-to-deposit-cryptocurrencies-to-cex-io-wallet.md): Use your CEX.IO Wallet address to deposit crypto assets to CEX.IO.
+- [Crypto deposits troubleshooting tips](http://support.cex.io/en/articles/4383410-crypto-deposits-troubleshooting-tips.md)
+- [Recovering incorrect crypto deposits](http://support.cex.io/en/articles/5373268-recovering-incorrect-crypto-deposits.md)
+- [Update Regarding Crypto Deposit Wallet Addresses](http://support.cex.io/en/articles/15433954-update-regarding-crypto-deposit-wallet-addresses.md)
+- [How to withdraw funds to your credit or debit card](http://support.cex.io/en/articles/4383412-how-to-withdraw-funds-to-your-credit-or-debit-card.md)
+- [How to withdraw fiat funds from your CEX.IO account](http://support.cex.io/en/articles/4452873-how-to-withdraw-fiat-funds-from-your-cex-io-account.md): A step-by-step guide on how to withdraw USD, EUR, and GBP to your card, bank account or online wallet.
+- [Bank Transfer Withdrawal Investigation](http://support.cex.io/en/articles/5568530-bank-transfer-withdrawal-investigation.md)
+- [How to withdraw cryptocurrency from CEX.IO Wallet](http://support.cex.io/en/articles/8949759-how-to-withdraw-cryptocurrency-from-cex-io-wallet.md): Learn how to send cryptocurrencies to your external wallets, payment card or e-wallet.
+- [Crypto withdrawals troubleshooting tips](http://support.cex.io/en/articles/4383409-crypto-withdrawals-troubleshooting-tips.md)
+- [Сonfirmation requirements for crypto transactions](http://support.cex.io/en/articles/4383405-сonfirmation-requirements-for-crypto-transactions.md)
+- [How to find the transaction ID/hash?](http://support.cex.io/en/articles/5606594-how-to-find-the-transaction-id-hash.md)
+- [Invalid DASH address; How to proceed?](http://support.cex.io/en/articles/4383424-invalid-dash-address-how-to-proceed.md)
+- [CEX.IO Pay availability: Where you can send crypto instantly & free](http://support.cex.io/en/articles/11696841-cex-io-pay-availability-where-you-can-send-crypto-instantly-free.md)
+
+### CEX.IO App
+
+- [Getting Started with CEX.IO App](http://support.cex.io/en/articles/10435868-getting-started-with-cex-io-app.md)
+- [How to register an account using CEX.IO App](http://support.cex.io/en/articles/9076115-how-to-register-an-account-using-cex-io-app.md): Create an account at CEX.IO using our handy mobile app and access markets anywhere you go.
+- [What is a primary currency in CEX.IO App?](http://support.cex.io/en/articles/9083200-what-is-a-primary-currency-in-cex-io-app.md): Currently, the CEX.IO App features three primary currencies: U.S. dollar \(USD\), Euro \(EUR\), and Pound sterling \(GBP\).
+- [How to use the Convert feature in CEX.IO App](http://support.cex.io/en/articles/9100499-how-to-use-the-convert-feature-in-cex-io-app.md)
+- [How to trade crypto via CEX.IO App](http://support.cex.io/en/articles/9100489-how-to-trade-crypto-via-cex-io-app.md): Learn how to buy crypto instantly with card, and plance market and limit orders in the CEX.IO App.
+- [How to utilize crypto savings in CEX.IO App](http://support.cex.io/en/articles/9083189-how-to-utilize-crypto-savings-in-cex-io-app.md): Earn daily crypto rewards regardless of market conditions with CEX.IO Savings.
+- [How to Convert Crypto on CEX.IO](http://support.cex.io/en/articles/12269829-how-to-convert-crypto-on-cex-io.md)
+- [Account Verification Guide for App: Identity Verification](http://support.cex.io/en/articles/4383395-account-verification-guide-for-app-identity-verification.md)
+- [How to link a debit/credit card to CEX.IO App?](http://support.cex.io/en/articles/9070578-how-to-link-a-debit-credit-card-to-cex-io-app.md): Add a debit or credit card to your CEX.IO account and make fiat deposits and withdrawals in a few clicks anytime you need.
+- [How to link a payment method in the CEX.IO App](http://support.cex.io/en/articles/9310719-how-to-link-a-payment-method-in-the-cex-io-app.md): Connect your card, bank account, Skrill, PayPal wallets for smooth fiat deposits and crypto purchases.
+- [Guide to Enhanced Verification with CEX.IO App](http://support.cex.io/en/articles/4383510-guide-to-enhanced-verification-with-cex-io-app.md): If you're a high-volume trader, you may pass enhanced verification and increase your account limits.
+- [Fiat deposit guide for CEX.IO App users](http://support.cex.io/en/articles/9310785-fiat-deposit-guide-for-cex-io-app-users.md): Add funds using your payment card, bank transfer, or electronic wallets. Google Pay and Apple Pay supported!
+- [Buy and sell crypto instantly via CEX.IO App](http://support.cex.io/en/articles/9100494-buy-and-sell-crypto-instantly-via-cex-io-app.md)
+- [How to complete crypto deposits with CEX.IO App](http://support.cex.io/en/articles/9287374-how-to-complete-crypto-deposits-with-cex-io-app.md): Top up your balance in a few taps using direct crypto deposits with the CEX.IO mobile app. Get your crypto wallet address.
+- [Fiat withdrawals in the CEX.IO App](http://support.cex.io/en/articles/9264578-fiat-withdrawals-in-the-cex-io-app.md): A guide on fiat withdrawals to cards and bank accounts \(bank transfers\) using the CEX.IO App.
+- [Crypto withdrawals in the CEX.IO App](http://support.cex.io/en/articles/9264564-crypto-withdrawals-in-the-cex-io-app.md): A guide on how to withdraw cryptocurrencies using the CEX.IO App. Over 40 blockchain networks supported.
+
+### CEX.IO Crypto Card
+
+- [Important CEX.IO Card Update](http://support.cex.io/en/articles/13460417-important-cex-io-card-update.md)
+
+### Spot Trading
+
+- [Profile page overview \(+API trading guide\)](http://support.cex.io/en/articles/6797014-profile-page-overview-api-trading-guide.md)
+- [How to create a sub-account at CEX.IO Spot Trading](http://support.cex.io/en/articles/8727747-how-to-create-a-sub-account-at-cex-io-spot-trading.md): Sub-accounts can help traders manage risk, and organize their trading strategies to discover new pathways through the crypto ecosystem.
+- [Spot Trading Trade page overview: Placing a New Order](http://support.cex.io/en/articles/6730966-spot-trading-trade-page-overview-placing-a-new-order.md)
+- [Spot Trading Trade page overview: Order Book](http://support.cex.io/en/articles/7836484-spot-trading-trade-page-overview-order-book.md)
+- [Spot Trading Trade page overview: Price Charts](http://support.cex.io/en/articles/7836491-spot-trading-trade-page-overview-price-charts.md)
+- [What is Max slippage for Spot Trading trade orders?](http://support.cex.io/en/articles/6992144-what-is-max-slippage-for-spot-trading-trade-orders.md)
+- [Spot Trading order types and how to use them](http://support.cex.io/en/articles/6741080-spot-trading-order-types-and-how-to-use-them.md): Basically, trading means buying and selling an asset. And if you want to do that, you need to place an order.
+- [How to place a Market Order at Spot Trading](http://support.cex.io/en/articles/6741105-how-to-place-a-market-order-at-spot-trading.md)
+- [How to place a Limit order at Spot Trading](http://support.cex.io/en/articles/6741172-how-to-place-a-limit-order-at-spot-trading.md)
+- [How to place a Stop Limit order at Spot Trading](http://support.cex.io/en/articles/6762437-how-to-place-a-stop-limit-order-at-spot-trading.md): A Stop Limit order is a combination of two order types — stop and limit. Let’s explore how to place and execute Stop Limit orders on CEX.IO.
+- [Trading Fee Balance at Spot Trading](http://support.cex.io/en/articles/8178067-trading-fee-balance-at-spot-trading.md)
+- [Order book and market depth chart](http://support.cex.io/en/articles/5637740-order-book-and-market-depth-chart.md)
+- [What is the time reference for trade charts?](http://support.cex.io/en/articles/4383492-what-is-the-time-reference-for-trade-charts.md)
+- [Spot Trading Finances page overview](http://support.cex.io/en/articles/6738276-spot-trading-finances-page-overview.md): Gives you an opportunity to track information about your accounts, as well as your current balances on the Finances page.
+- [How to Add Funds to Spot Trading account](http://support.cex.io/en/articles/6762036-how-to-add-funds-to-spot-trading-account.md)
+- [Spot Trading: funds withdrawal](http://support.cex.io/en/articles/6745305-spot-trading-funds-withdrawal.md): Whether you're cashing out fiats or transferring funds to an external wallet, Spot Trading offers a diverse range of withdrawal methods.
+- [How to trade cryptocurrencies at CEX.IO](http://support.cex.io/en/articles/4383483-how-to-trade-cryptocurrencies-at-cex-io.md)
+- [How to use Open Banking at CEX.IO](http://support.cex.io/en/articles/9595242-how-to-use-open-banking-at-cex-io.md): Deposit fiat funds via online banks with Open Banking. Now available at CEX.IO.
+- [CEX.IO Pay: Instant & Free Crypto Transfers](http://support.cex.io/en/articles/11603322-cex-io-pay-instant-free-crypto-transfers.md)
+- [Spot Trading Reports: Orders and Transactions](http://support.cex.io/en/articles/6738257-spot-trading-reports-orders-and-transactions.md)
+- [Spot Trading Reports: Statements](http://support.cex.io/en/articles/8792373-spot-trading-reports-statements.md)
+- [Spot Trading Reports: Sub-Account Transfers](http://support.cex.io/en/articles/8792366-spot-trading-reports-sub-account-transfers.md)
+- [Dev Tools](http://support.cex.io/en/articles/7966053-dev-tools.md): This article is intended for troubleshooting purposes with support team
+
+### API
+
+- [API Setup guide](http://support.cex.io/en/articles/4383493-api-setup-guide.md)
+- [REST/Web Socket API limits](http://support.cex.io/en/articles/4383495-rest-web-socket-api-limits.md)
+- [FIX API pros and cons](http://support.cex.io/en/articles/4383494-fix-api-pros-and-cons.md)
+- [Changes in API trading experience](http://support.cex.io/en/articles/8537084-changes-in-api-trading-experience.md)
+
+### CEX.IO Referral Program
+
+- [August Referral Promo for US - OFFICIAL RULES](http://support.cex.io/en/articles/16443023-august-referral-promo-for-us-official-rules.md)
+- [August Referral Promo 2026 - OFFICIAL RULES](http://support.cex.io/en/articles/16443041-august-referral-promo-2026-official-rules.md)
+- [August 5 USDC Referral Promo 2026 - OFFICIAL RULES](http://support.cex.io/en/articles/16443071-august-5-usdc-referral-promo-2026-official-rules.md)
+
+### Announcements
+
+- [How to Whitelist Emails from CEX.IO](http://support.cex.io/en/articles/6741623-how-to-whitelist-emails-from-cex-io.md)
+- [How to contact Customer Support?](http://support.cex.io/en/articles/5459778-how-to-contact-customer-support.md)
+- [CEX.IO Official Channels](http://support.cex.io/en/articles/4383383-cex-io-official-channels.md)
+- [Update regarding our services in Canada](http://support.cex.io/en/articles/8403870-update-regarding-our-services-in-canada.md)
+- [MiCA Compliance: Changes to USDT and DAI holdings for EEA Users](http://support.cex.io/en/articles/10546958-mica-compliance-changes-to-usdt-and-dai-holdings-for-eea-users.md)
+- [Announcement regarding EOS \(EOS\) migration to Vaulta \(A\)](http://support.cex.io/en/articles/11333850-announcement-regarding-eos-eos-migration-to-vaulta-a.md)
+- [Upcoming Maker \(MKR\) to Sky \(SKY\) Migration at CEX.IO](http://support.cex.io/en/articles/12010267-upcoming-maker-mkr-to-sky-sky-migration-at-cex-io.md): This article explains the migration schedule, how the process will work, and what you need to do to ensure a smooth transition.
+- [Announcement regarding FXS migration to FRAX](http://support.cex.io/en/articles/13531755-announcement-regarding-fxs-migration-to-frax.md)
+- [Announcement regarding OM migration to MANTRA](http://support.cex.io/en/articles/13762646-announcement-regarding-om-migration-to-mantra.md)
+- [Announcement regarding SEI \(Cosmos\) migration to SEI \(EVM\)](http://support.cex.io/en/articles/14182938-announcement-regarding-sei-cosmos-migration-to-sei-evm.md)
+- [We’re winding down in Canada & request to withdraw funds](http://support.cex.io/en/articles/8115396-we-re-winding-down-in-canada-request-to-withdraw-funds.md)
+- [TON Crystal \(TON\) to Everscale \(EVER\) migration](http://support.cex.io/en/articles/5835418-ton-crystal-ton-to-everscale-ever-migration.md)
+- [Bittorrent token redenomination and renaming](http://support.cex.io/en/articles/6144891-bittorrent-token-redenomination-and-renaming.md)
+- [LUNA migration](http://support.cex.io/en/articles/6266586-luna-migration.md)
+- [Notice and update regarding Ethereum Merge](http://support.cex.io/en/articles/6542125-notice-and-update-regarding-ethereum-merge.md)
+- [An update regarding our services in the state of Hawaii](http://support.cex.io/en/articles/7172789-an-update-regarding-our-services-in-the-state-of-hawaii.md)
+- [Notice regarding the tax burn for LUNC transactions](http://support.cex.io/en/articles/6596673-notice-regarding-the-tax-burn-for-lunc-transactions.md)
+- [Important updates for Aurus tokens \(AWG, AWS, AWX\)](http://support.cex.io/en/articles/6701340-important-updates-for-aurus-tokens-awg-aws-awx.md)
+- [NEO N3 migration on CEX.IO](http://support.cex.io/en/articles/5562359-neo-n3-migration-on-cex-io.md)
+- [Kyber Network \(KNC\) token migration](http://support.cex.io/en/articles/5319822-kyber-network-knc-token-migration.md)
+- [Trade certain pairs with lower fees](http://support.cex.io/en/articles/8455859-trade-certain-pairs-with-lower-fees.md)
+- [Supported currencies and trading pairs for U.S. customers](http://support.cex.io/en/articles/5465666-supported-currencies-and-trading-pairs-for-u-s-customers.md)
+- [Introducing Spot Trading trading through the CEX.IO Wallet](http://support.cex.io/en/articles/8717360-introducing-spot-trading-trading-through-the-cex-io-wallet.md)
+- [Exchange Plus is rebranding to CEX.IO Spot Trading](http://support.cex.io/en/articles/8889817-exchange-plus-is-rebranding-to-cex-io-spot-trading.md): We’ve decided to rebrand Exchange Plus to CEX.IO Spot Trading.
+- [Fetch.ai \(FET\), SingularityNET \(AGIX\), and Ocean Protocol \(OCEAN\) token merge](http://support.cex.io/en/articles/9534049-fetch-ai-fet-singularitynet-agix-and-ocean-protocol-ocean-token-merge.md)
+- [Announcement regarding Fantom \(FTM\) migration to Sonic \(S\)](http://support.cex.io/en/articles/10435022-announcement-regarding-fantom-ftm-migration-to-sonic-s.md)
+- [Important Notice: Withdrawal deadline for Users in India](http://support.cex.io/en/articles/12531042-important-notice-withdrawal-deadline-for-users-in-india.md)
+- [Announcement: DAI to USDS Migration Support](http://support.cex.io/en/articles/14534865-announcement-dai-to-usds-migration-support.md)
+- [FLR airdrop update](http://support.cex.io/en/articles/6903803-flr-airdrop-update.md)
+- [Announcement regarding Toncoin \(TON\) migration to Gram \(Gram\)](http://support.cex.io/en/articles/15554208-announcement-regarding-toncoin-ton-migration-to-gram-gram.md)
+- [Margin Trading Pairs Removal: August 13, 2026](http://support.cex.io/en/articles/16308280-margin-trading-pairs-removal-august-13-2026.md)
+- [Delisting notice](http://support.cex.io/en/articles/7229240-delisting-notice.md)
+- [CEX.IO will stop trading for 7 pairs on October 15, 2021](http://support.cex.io/en/articles/5630734-cex-io-will-stop-trading-for-7-pairs-on-october-15-2021.md)
+- [GALA and pGALA Delisting Announcement](http://support.cex.io/en/articles/8201936-gala-and-pgala-delisting-announcement.md)
+- [XSGD Delisting Notice](http://support.cex.io/en/articles/8321349-xsgd-delisting-notice.md)
+- [Prema \(PRMX\) Delisting Update](http://support.cex.io/en/articles/8329376-prema-prmx-delisting-update.md)
+- [DHB delisting notice](http://support.cex.io/en/articles/8523953-dhb-delisting-notice.md)
+- [Edgecoin \(EDGT\) delisting notice](http://support.cex.io/en/articles/8562056-edgecoin-edgt-delisting-notice.md)
+- [Delisting notice: The following assets will be removed](http://support.cex.io/en/articles/9716983-delisting-notice-the-following-assets-will-be-removed.md): Check the list of assets that will no longer be supported by CEX.IO as of September 5, 2024.
+- [Delisting notice: The following assets will be removed](http://support.cex.io/en/articles/10184671-delisting-notice-the-following-assets-will-be-removed.md): Check the list of assets that will no longer be supported by CEX.IO as of October 30, 2024.
+- [An update regarding our available listings](http://support.cex.io/en/articles/8075185-an-update-regarding-our-available-listings.md)
+- [Asset Delisting Notice: May–June 2026](http://support.cex.io/en/articles/15551341-asset-delisting-notice-may-june-2026.md)
+- [MINA Delisting Notice](http://support.cex.io/en/articles/15551355-mina-delisting-notice.md)
+- [Songbird \(SGB\) Delisting Notice](http://support.cex.io/en/articles/16034914-songbird-sgb-delisting-notice.md)
+- [Margin Trading Pairs Removal \(July 30, 2026\)](http://support.cex.io/en/articles/16146244-margin-trading-pairs-removal-july-30-2026.md)
+- [Margin Trading Pairs Removal \(August 6, 2026\)](http://support.cex.io/en/articles/16213814-margin-trading-pairs-removal-august-6-2026.md)
+- [Asset Delisting Notice: September 2026](http://support.cex.io/en/articles/16249960-asset-delisting-notice-september-2026.md)
+- [Asset Delisting Notice: September 21, 2026](http://support.cex.io/en/articles/16441248-asset-delisting-notice-september-21-2026.md)
+- [GORK \(New XAI\) Delisting Notice](http://support.cex.io/en/articles/16542909-gork-new-xai-delisting-notice.md)
+- [We're Removing 19 Assets from CEX.IO on October 15, 2026](http://support.cex.io/en/articles/16944466-we-re-removing-19-assets-from-cex-io-on-october-15-2026.md)
+- [Asset Delisting Notice: November 16, 2026](http://support.cex.io/en/articles/17298285-asset-delisting-notice-november-16-2026.md)
+- [Cashback Magic: Spend & Earn BTC, ETH, SOL, TRUMP & Up To 1,000 DOGE](http://support.cex.io/en/articles/11028522-cashback-magic-spend-earn-btc-eth-sol-trump-up-to-1-000-doge.md)
+- [Limited-Time: Increased Savings Rewards on CEX.IO!](http://support.cex.io/en/articles/11865637-limited-time-increased-savings-rewards-on-cex-io.md)
+- [Earn-tober: Enjoy Increased Savings Rewards in October](http://support.cex.io/en/articles/12470360-earn-tober-enjoy-increased-savings-rewards-in-october.md)
+- [Fee Rebate Offer for Users Requesting Account Closure](http://support.cex.io/en/articles/15397970-fee-rebate-offer-for-users-requesting-account-closure.md)
+- [100 USD in BTC Verification Promotion for US — Official Rules](http://support.cex.io/en/articles/16040723-100-usd-in-btc-verification-promotion-for-us-official-rules.md)
+- [September Referral Promo for US - OFFICIAL RULES](http://support.cex.io/en/articles/16973007-september-referral-promo-for-us-official-rules.md)
+- [September Referral Promo 2026 - OFFICIAL RULES](http://support.cex.io/en/articles/16973022-september-referral-promo-2026-official-rules.md)
+- [October Crypto Cashback Promotion Official Rules](http://support.cex.io/en/articles/17252878-october-crypto-cashback-promotion-official-rules.md)
+
+### Glossary
+
+- [3D Secure verification](http://support.cex.io/en/articles/8887263-3d-secure-verification.md)
+- [AML](http://support.cex.io/en/articles/4383565-aml.md)
+- [API](http://support.cex.io/en/articles/4383564-api.md)
+- [Arbitrage](http://support.cex.io/en/articles/4383544-arbitrage.md)
+- [Ask price](http://support.cex.io/en/articles/4383528-ask-price.md)
+- [Base currency](http://support.cex.io/en/articles/4383526-base-currency.md)
+- [Bid price](http://support.cex.io/en/articles/4383527-bid-price.md)
+- [Blockchain](http://support.cex.io/en/articles/4383554-blockchain.md)
+- [Block reward](http://support.cex.io/en/articles/4383553-block-reward.md)
+- [Candlesticks \(Japanese candles\)](http://support.cex.io/en/articles/4383543-candlesticks-japanese-candles.md)
+- [Confirmations](http://support.cex.io/en/articles/4383551-confirmations.md)
+- [Cold storage](http://support.cex.io/en/articles/4383552-cold-storage.md)
+- [Cryptocurrency](http://support.cex.io/en/articles/4383563-cryptocurrency.md)
+- [Crypto exchange](http://support.cex.io/en/articles/4383542-crypto-exchange.md)
+- [Desktop wallet](http://support.cex.io/en/articles/4383541-desktop-wallet.md)
+- [Dust](http://support.cex.io/en/articles/4383524-dust.md)
+- [ERC-20 Token](http://support.cex.io/en/articles/4383562-erc-20-token.md)
+- [Ethereum](http://support.cex.io/en/articles/4383523-ethereum.md)
+- [Fiat currency](http://support.cex.io/en/articles/4383561-fiat-currency.md)
+- [Fill-or-kill order](http://support.cex.io/en/articles/4383540-fill-or-kill-order.md)
+- [Fork](http://support.cex.io/en/articles/4383522-fork.md)
+- [Genesis block](http://support.cex.io/en/articles/4383517-genesis-block.md)
+- [Halving](http://support.cex.io/en/articles/4383560-halving.md)
+- [Hot wallet](http://support.cex.io/en/articles/4383550-hot-wallet.md)
+- [ICO](http://support.cex.io/en/articles/4383516-ico.md)
+- [Gas](http://support.cex.io/en/articles/4383518-gas.md)
+- [KYC](http://support.cex.io/en/articles/4383559-kyc.md)
+- [KYC](http://support.cex.io/en/articles/11654862-kyc.md)
+- [Ledger wallet](http://support.cex.io/en/articles/4383539-ledger-wallet.md)
+- [Limit order](http://support.cex.io/en/articles/4383558-limit-order.md)
+- [Liquidity](http://support.cex.io/en/articles/4383538-liquidity.md)
+- [Nonce](http://support.cex.io/en/articles/4383514-nonce.md)
+- [Node](http://support.cex.io/en/articles/4383515-node.md)
+- [Peer-to-peer \(P2P\)](http://support.cex.io/en/articles/4383520-peer-to-peer-p2p.md)
+- [Private key](http://support.cex.io/en/articles/4383548-private-key.md)
+- [Public key](http://support.cex.io/en/articles/4383549-public-key.md)
+- [QR code](http://support.cex.io/en/articles/4383536-qr-code.md)
+- [Signature](http://support.cex.io/en/articles/4383535-signature.md)
+- [Spot market](http://support.cex.io/en/articles/5637735-spot-market.md)
+- [Stablecoin](http://support.cex.io/en/articles/4383556-stablecoin.md)
+- [Staking](http://support.cex.io/en/articles/4383555-staking.md)
+- [Smart contracts](http://support.cex.io/en/articles/4383547-smart-contracts.md)
+- [Spread](http://support.cex.io/en/articles/4383532-spread.md)
+- [SegWit](http://support.cex.io/en/articles/4383534-segwit.md)
+- [Two-factor authentication](http://support.cex.io/en/articles/4383531-two-factor-authentication.md)
+- [Transaction fees](http://support.cex.io/en/articles/4383546-transaction-fees.md)
+- [Volatility](http://support.cex.io/en/articles/4383530-volatility.md)
+- [Wallet](http://support.cex.io/en/articles/4383545-wallet.md)
+- [What are orphaned blocks?](http://support.cex.io/en/articles/4383466-what-are-orphaned-blocks.md)
+- [What is a market chart and how to read it?](http://support.cex.io/en/articles/4383491-what-is-a-market-chart-and-how-to-read-it.md): With a crypto market live chart, you can identify and analyze price movements, patterns, and tendencies to fulfill your trading strategy.
+- [What is a currency pair and how to find the market on CEX.IO?](http://support.cex.io/en/articles/5637736-what-is-a-currency-pair-and-how-to-find-the-market-on-cex-io.md)
+- [What is liquidity and who are takers and makers?](http://support.cex.io/en/articles/5637748-what-is-liquidity-and-who-are-takers-and-makers.md)
+
+### Cryptocurrency Tax Education Series
+
+- [Tax reporting for U.S. users](http://support.cex.io/en/articles/13744949-tax-reporting-for-u-s-users.md)
+- [What's Changing with Crypto Taxes in the U.S. in 2025?](http://support.cex.io/en/articles/12975121-what-s-changing-with-crypto-taxes-in-the-u-s-in-2025.md)
+- [Why We're Asking for Your Tax Information \(W-9 Explained for U.S. users\)](http://support.cex.io/en/articles/12975113-why-we-re-asking-for-your-tax-information-w-9-explained-for-u-s-users.md)
+- [Your 1099-DA: What to Expect in the U.S. in 2026](http://support.cex.io/en/articles/12975095-your-1099-da-what-to-expect-in-the-u-s-in-2026.md)
+- [Understanding Multiple 1099-DAs and Stablecoins](http://support.cex.io/en/articles/12975087-understanding-multiple-1099-das-and-stablecoins.md): For US users
+- [Common Questions About Crypto Tax Reporting](http://support.cex.io/en/articles/12974867-common-questions-about-crypto-tax-reporting.md): For US users
+- [FAQ regarding tax reporting](http://support.cex.io/en/articles/12943302-faq-regarding-tax-reporting.md): For US users
+- [What is an ITIN and Who Needs One?](http://support.cex.io/en/articles/16441279-what-is-an-itin-and-who-needs-one.md)
+- [Tax Reporting for EU/UK Users](http://support.cex.io/en/articles/15564871-tax-reporting-for-eu-uk-users.md)
+- [What's Changing with Crypto Taxes in 2026 for EU/UK Users?](http://support.cex.io/en/articles/15564909-what-s-changing-with-crypto-taxes-in-2026-for-eu-uk-users.md)
+- [Common Questions About Crypto Tax Reporting for EU/UK Users](http://support.cex.io/en/articles/15564932-common-questions-about-crypto-tax-reporting-for-eu-uk-users.md): Direct Answers to Crucial Compliance Questions
+- [How to Find Your Tax Identification Number \(TIN\): A Quick Guide by Country for EU/UK Users](http://support.cex.io/en/articles/15564943-how-to-find-your-tax-identification-number-tin-a-quick-guide-by-country-for-eu-uk-users.md)
+
+## Español
+
+### Cuenta
+
+- [Primeros pasos](http://support.cex.io/es/articles/4383397-primeros-pasos.md): Una guía paso a paso sobre cómo crear una cuenta y comenzar a comprar, intercambiar y ganar criptomonedas.
+- [Cómo habilitar la autenticación de dos factores \(2FA\) para tu cuenta de CEX.IO](http://support.cex.io/es/articles/4814825-como-habilitar-la-autenticacion-de-dos-factores-2fa-para-tu-cuenta-de-cex-io.md)
+- [Cómo añadir y enviar fondos en CEX.IO](http://support.cex.io/es/articles/4383422-como-anadir-y-enviar-fondos-en-cex-io.md)
+- [Métodos de pago en CEX.IO](http://support.cex.io/es/articles/5441769-metodos-de-pago-en-cex-io.md)
+- [¿Cómo puedo encontrar mi ID de usuario/nombre de usuario?](http://support.cex.io/es/articles/4383393-como-puedo-encontrar-mi-id-de-usuario-nombre-de-usuario.md)
+- [Beneficios de la aplicación autenticadora frente al SMS](http://support.cex.io/es/articles/6616407-beneficios-de-la-aplicacion-autenticadora-frente-al-sms.md)
+- [Guía de verificación de cuenta en el sitio web: verificación de identidad](http://support.cex.io/es/articles/11632332-guia-de-verificacion-de-cuenta-en-el-sitio-web-verificacion-de-identidad.md)
+- [Preguntas Frecuentes sobre la Verificación de Identidad](http://support.cex.io/es/articles/10022396-preguntas-frecuentes-sobre-la-verificacion-de-identidad.md): Encuentra respuestas a las preguntas más frecuentes sobre nuestro procedimiento de Verificación de Identidad.
+- [Cómo tomar fotos para la confirmación de identidad](http://support.cex.io/es/articles/4383388-como-tomar-fotos-para-la-confirmacion-de-identidad.md)
+- [¿Qué es el TIN?](http://support.cex.io/es/articles/5661903-que-es-el-tin.md)
+- [¿Por qué fui rechazado en CEX.IO si ya pasé la verificación AML/KYC en otros exchanges?](http://support.cex.io/es/articles/4783555-por-que-fui-rechazado-en-cex-io-si-ya-pase-la-verificacion-aml-kyc-en-otros-exchanges.md)
+- [¿Qué son AML y KYC?](http://support.cex.io/es/articles/4527857-que-son-aml-y-kyc.md)
+- [¿Qué obtendré si supero la verificación AML/KYC?](http://support.cex.io/es/articles/4783547-que-obtendre-si-supero-la-verificacion-aml-kyc.md)
+- [Guía de Verificación de Tarjeta de Pago](http://support.cex.io/es/articles/4383448-guia-de-verificacion-de-tarjeta-de-pago.md)
+- [Guía de Tarjetas de Pago](http://support.cex.io/es/articles/4383416-guia-de-tarjetas-de-pago.md)
+- [¿Cómo enviar una selfie con una tarjeta? \(Preguntas frecuentes\)](http://support.cex.io/es/articles/5858966-como-enviar-una-selfie-con-una-tarjeta-preguntas-frecuentes.md): Para verificar tu tarjeta de débito o crédito, es posible que se te solicite subir una selfie sosteniendo la tarjeta. Aquí te explicamos cómo hacerlo.
+- [¿Por qué fue rechazada la verificación de mi tarjeta?](http://support.cex.io/es/articles/4383420-por-que-fue-rechazada-la-verificacion-de-mi-tarjeta.md)
+- [Solicitud de verificación de tarjeta de pago durante el retiro de fondos](http://support.cex.io/es/articles/9352301-solicitud-de-verificacion-de-tarjeta-de-pago-durante-el-retiro-de-fondos.md)
+
+### Account security & Profile
+
+- [¿Dónde puedo ver mis dispositivos conectados?](http://support.cex.io/es/articles/9791045-donde-puedo-ver-mis-dispositivos-conectados.md)
+- [Consejos para solucionar problemas de autenticación de dos factores \(2FA\)](http://support.cex.io/es/articles/4383389-consejos-para-solucionar-problemas-de-autenticacion-de-dos-factores-2fa.md): Hemos preparado una lista de las situaciones más comunes con la 2FA y los pasos para solucionarlas.
+- [Guía de recuperación de 2FA: Teléfono o dispositivo perdido o dañado](http://support.cex.io/es/articles/4383396-guia-de-recuperacion-de-2fa-telefono-o-dispositivo-perdido-o-danado.md): Si tu dispositivo se ha perdido o dañado recientemente, sigue esta guía para recuperar el acceso a tu cuenta de CEX.IO.
+- [Cómo cambiar el número de teléfono para recibir los códigos de autenticación en dos pasos \(2FA\)](http://support.cex.io/es/articles/4383381-como-cambiar-el-numero-de-telefono-para-recibir-los-codigos-de-autenticacion-en-dos-pasos-2fa.md)
+- [Cómo restaurar el acceso a tu cuenta de CEX.IO si pierdes tu dispositivo de autenticación \(2FA\)](http://support.cex.io/es/articles/5029000-como-restaurar-el-acceso-a-tu-cuenta-de-cex-io-si-pierdes-tu-dispositivo-de-autenticacion-2fa.md): Si pierdes el acceso a tu 2FA o no recibes el SMS, envía el formulario para recuperar tu cuenta.
+- [¿Qué hago si mi token 2FA siempre aparece como inválido?](http://support.cex.io/es/articles/4383400-que-hago-si-mi-token-2fa-siempre-aparece-como-invalido.md)
+- [La siguiente lista corresponde a países y territorios que actualmente no son admitidos por CEX.IO](http://support.cex.io/es/articles/4560858-la-siguiente-lista-corresponde-a-paises-y-territorios-que-actualmente-no-son-admitidos-por-cex-io.md)
+- [Países y territorios con soporte para CEX.IO Earn \(Ahorros y Staking\)](http://support.cex.io/es/articles/5080354-paises-y-territorios-con-soporte-para-cex-io-earn-ahorros-y-staking.md)
+- [Origen de los fondos](http://support.cex.io/es/articles/5679414-origen-de-los-fondos.md)
+- [¿Por qué solicitamos confirmar el origen de los fondos?](http://support.cex.io/es/articles/4383380-por-que-solicitamos-confirmar-el-origen-de-los-fondos.md)
+
+### Finanzas
+
+- [¿Qué es la Regla de Viaje \(Travel Rule\) para criptomonedas?](http://support.cex.io/es/articles/15564683-que-es-la-regla-de-viaje-travel-rule-para-criptomonedas.md)
+- [Cómo depositar fondos fiat con una tarjeta de crédito o débito](http://support.cex.io/es/articles/4383414-como-depositar-fondos-fiat-con-una-tarjeta-de-credito-o-debito.md): Deposita USD, EUR o GBP al instante usando tu tarjeta de débito o crédito Visa o Mastercard
+- [Cómo comprar criptomonedas al instante con tu tarjeta de débito/crédito](http://support.cex.io/es/articles/4383479-como-comprar-criptomonedas-al-instante-con-tu-tarjeta-de-debito-credito.md): Compra tu criptomoneda preferida en pocos clics utilizando el método de pago más conveniente.
+- [¿Por qué mi pago está en estado pendiente?](http://support.cex.io/es/articles/4383463-por-que-mi-pago-esta-en-estado-pendiente.md)
+- [¿Puedo usar una tarjeta prepaga?](http://support.cex.io/es/articles/4383419-puedo-usar-una-tarjeta-prepaga.md)
+- [¿Dónde puedo encontrar mi dirección de monedero?](http://support.cex.io/es/articles/5605701-donde-puedo-encontrar-mi-direccion-de-monedero.md): Las direcciones de los cripto monederos se pueden encontrar en la página Monedero \(sitio web\) y en la pestaña Monedero de la App CEX.IO.
+- [Cómo depositar criptomonedas en la cartera CEX.IO](http://support.cex.io/es/articles/8948960-como-depositar-criptomonedas-en-la-cartera-cex-io.md): Utilice su dirección de cartera CEX.IO para depositar criptoactivos en CEX.IO.
+- [Consejos para solucionar problemas con depósitos de criptomonedas](http://support.cex.io/es/articles/4383410-consejos-para-solucionar-problemas-con-depositos-de-criptomonedas.md)
+- [Recuperación de depósitos de criptomonedas incorrectos](http://support.cex.io/es/articles/5373268-recuperacion-de-depositos-de-criptomonedas-incorrectos.md)
+- [Cómo retirar fondos a tu tarjeta de crédito o débito](http://support.cex.io/es/articles/4383412-como-retirar-fondos-a-tu-tarjeta-de-credito-o-debito.md)
+- [Cómo retirar fondos fiduciarios \(fiat\) de tu cuenta CEX.IO](http://support.cex.io/es/articles/4452873-como-retirar-fondos-fiduciarios-fiat-de-tu-cuenta-cex-io.md): Una guía paso a paso sobre cómo retirar USD, EUR y GBP a su tarjeta, cuenta bancaria o billetera en línea.
+- [Investigación de retiro por transferencia bancaria](http://support.cex.io/es/articles/5568530-investigacion-de-retiro-por-transferencia-bancaria.md)
+- [Cómo retirar criptomonedas desde la Billetera de CEX.IO](http://support.cex.io/es/articles/8949759-como-retirar-criptomonedas-desde-la-billetera-de-cex-io.md): Aprende cómo enviar criptomonedas a tus billeteras externas, tarjeta de pago o monedero electrónico.
+- [Consejos para solucionar problemas con retiros de criptomonedas](http://support.cex.io/es/articles/4383409-consejos-para-solucionar-problemas-con-retiros-de-criptomonedas.md)
+- [Requisitos de Confirmación para Transacciones de Criptomonedas](http://support.cex.io/es/articles/4383405-requisitos-de-confirmacion-para-transacciones-de-criptomonedas.md)
+- [Disponibilidad de CEX.IO Pay: dónde puedes enviar criptomonedas al instante y sin comisiones](http://support.cex.io/es/articles/11696841-disponibilidad-de-cex-io-pay-donde-puedes-enviar-criptomonedas-al-instante-y-sin-comisiones.md)
+
+### App de CEX.IO
+
+- [Comenzando con la aplicación CEX.IO](http://support.cex.io/es/articles/10435868-comenzando-con-la-aplicacion-cex-io.md)
+- [Cómo registrar una cuenta usando la Aplicación CEX.IO](http://support.cex.io/es/articles/9076115-como-registrar-una-cuenta-usando-la-aplicacion-cex-io.md): Crea una cuenta en CEX.IO utilizando nuestra práctica aplicación móvil y accede a los mercados dondequiera que vayas.
+- [Guía de verificación de cuenta para la app: verificación de identidad](http://support.cex.io/es/articles/4383395-guia-de-verificacion-de-cuenta-para-la-app-verificacion-de-identidad.md)
+- [¿Cómo vincular una tarjeta de débito/crédito a la app de CEX.IO?](http://support.cex.io/es/articles/9070578-como-vincular-una-tarjeta-de-debito-credito-a-la-app-de-cex-io.md): Agrega una tarjeta de débito o crédito a tu cuenta de CEX.IO y realiza depósitos y retiros fiat en pocos clics cuando lo necesites.
+- [Cómo vincular un método de pago en la aplicación CEX.IO](http://support.cex.io/es/articles/9310719-como-vincular-un-metodo-de-pago-en-la-aplicacion-cex-io.md): Conecta tu tarjeta, cuenta bancaria, Skrill o monederos PayPal para realizar depósitos fiduciarios y compras de criptomonedas sin problemas.
+- [Guía de depósito fiat para usuarios de la app de CEX.IO](http://support.cex.io/es/articles/9310785-guia-de-deposito-fiat-para-usuarios-de-la-app-de-cex-io.md): Agrega fondos usando tu tarjeta de pago, transferencia bancaria o monederos electrónicos. ¡Google Pay y Apple Pay son compatibles!
+- [Cómo completar depósitos de criptomonedas con la aplicación CEX.IO](http://support.cex.io/es/articles/9287374-como-completar-depositos-de-criptomonedas-con-la-aplicacion-cex-io.md): Recarga tu saldo en pocos pasos mediante depósitos directos de criptomonedas con la aplicación móvil de CEX.IO. Obtén la dirección de tu billetera de criptomonedas.
+- [Retiros de fiat en la aplicación de CEX.IO](http://support.cex.io/es/articles/9264578-retiros-de-fiat-en-la-aplicacion-de-cex-io.md)
+- [Retiros de criptomonedas en la aplicación CEX.IO](http://support.cex.io/es/articles/9264564-retiros-de-criptomonedas-en-la-aplicacion-cex-io.md): Guía sobre cómo retirar criptomonedas utilizando la aplicación CEX.IO. Compatible con más de 40 redes blockchain.
+
+### Comercio al contado
+
+- [CEX.IO Pay: Transferencias de Cripto Instantáneas y Gratis](http://support.cex.io/es/articles/11603322-cex-io-pay-transferencias-de-cripto-instantaneas-y-gratis.md)
+
+### Anuncios
+
+- [Cómo incluir en la lista segura los correos electrónicos de CEX.IO](http://support.cex.io/es/articles/6741623-como-incluir-en-la-lista-segura-los-correos-electronicos-de-cex-io.md)
+- [¿Cómo contactar al servicio de atención al cliente?](http://support.cex.io/es/articles/5459778-como-contactar-al-servicio-de-atencion-al-cliente.md)
+- [Canales oficiales de CEX.IO y recordatorio de seguridad](http://support.cex.io/es/articles/4383383-canales-oficiales-de-cex-io-y-recordatorio-de-seguridad.md)
+
+### Glosario
+
+- [Verificación 3D Secure](http://support.cex.io/es/articles/8887263-verificacion-3d-secure.md)
+- [Prevención de Lavado de Dinero \(AML\)](http://support.cex.io/es/articles/4383565-prevencion-de-lavado-de-dinero-aml.md)
+- [API](http://support.cex.io/es/articles/4383564-api.md)
+- [Arbitraje](http://support.cex.io/es/articles/4383544-arbitraje.md)
+- [Precio de venta](http://support.cex.io/es/articles/4383528-precio-de-venta.md)
+- [Moneda Base](http://support.cex.io/es/articles/4383526-moneda-base.md)
+- [Bid](http://support.cex.io/es/articles/9897600-bid.md)
+- [Precio de oferta](http://support.cex.io/es/articles/4383527-precio-de-oferta.md)
+- [Blockchain](http://support.cex.io/es/articles/4383554-blockchain.md)
+- [Recompensa de Bloque](http://support.cex.io/es/articles/4383553-recompensa-de-bloque.md)
+- [Velas japonesas](http://support.cex.io/es/articles/4383543-velas-japonesas.md)
+- [Confirmaciones](http://support.cex.io/es/articles/4383551-confirmaciones.md)
+- [Almacenamiento en frío](http://support.cex.io/es/articles/4383552-almacenamiento-en-frio.md)
+- [Criptomoneda](http://support.cex.io/es/articles/4383563-criptomoneda.md)
+- [Exchange de criptomonedas](http://support.cex.io/es/articles/4383542-exchange-de-criptomonedas.md)
+- [Billetera de escritorio](http://support.cex.io/es/articles/4383541-billetera-de-escritorio.md)
+- [Dust](http://support.cex.io/es/articles/4383524-dust.md)
+- [Token ERC-20](http://support.cex.io/es/articles/4383562-token-erc-20.md)
+- [Ethereum](http://support.cex.io/es/articles/4383523-ethereum.md)
+- [Moneda fiduciaria](http://support.cex.io/es/articles/4383561-moneda-fiduciaria.md)
+- [Orden “Fill-or-Kill” \(llenar o cancelar\)](http://support.cex.io/es/articles/4383540-orden-fill-or-kill-llenar-o-cancelar.md)
+- [Fork](http://support.cex.io/es/articles/4383522-fork.md)
+- [Bloque Génesis](http://support.cex.io/es/articles/4383517-bloque-genesis.md)
+- [Halving](http://support.cex.io/es/articles/4383560-halving.md)
+- [Billetera caliente](http://support.cex.io/es/articles/4383550-billetera-caliente.md)
+- [ICO](http://support.cex.io/es/articles/4383516-ico.md)
+- [Gas](http://support.cex.io/es/articles/4383518-gas.md)
+- [KYC](http://support.cex.io/es/articles/4383559-kyc.md)
+- [Billetera Ledger](http://support.cex.io/es/articles/4383539-billetera-ledger.md)
+- [Orden limitada](http://support.cex.io/es/articles/4383558-orden-limitada.md)
+- [Liquidez](http://support.cex.io/es/articles/4383538-liquidez.md)
+- [Nonce](http://support.cex.io/es/articles/4383514-nonce.md)
+- [Nodo](http://support.cex.io/es/articles/4383515-nodo.md)
+- [Peer-to-peer \(P2P\) \(de igual a igual\)](http://support.cex.io/es/articles/4383520-peer-to-peer-p2p-de-igual-a-igual.md)
+- [Clave privada](http://support.cex.io/es/articles/4383548-clave-privada.md)
+- [Clave pública](http://support.cex.io/es/articles/4383549-clave-publica.md)
+- [Código QR](http://support.cex.io/es/articles/4383536-codigo-qr.md)
+- [Firma](http://support.cex.io/es/articles/4383535-firma.md)
+- [Mercado spot](http://support.cex.io/es/articles/5637735-mercado-spot.md)
+- [Stablecoin](http://support.cex.io/es/articles/4383556-stablecoin.md)
+- [Staking](http://support.cex.io/es/articles/4383555-staking.md)
+- [Contratos inteligentes](http://support.cex.io/es/articles/4383547-contratos-inteligentes.md)
+- [Spread](http://support.cex.io/es/articles/4383532-spread.md)
+- [SegWit](http://support.cex.io/es/articles/4383534-segwit.md)
+- [Autenticación de dos factores](http://support.cex.io/es/articles/4383531-autenticacion-de-dos-factores.md)
+- [Tarifas de transacción](http://support.cex.io/es/articles/4383546-tarifas-de-transaccion.md)
+- [Volatilidad](http://support.cex.io/es/articles/4383530-volatilidad.md)
+- [Billetera](http://support.cex.io/es/articles/4383545-billetera.md)
+- [¿Qué son los bloques huérfanos?](http://support.cex.io/es/articles/4383466-que-son-los-bloques-huerfanos.md)
+- [¿Qué es un gráfico de mercado y cómo leerlo?](http://support.cex.io/es/articles/4383491-que-es-un-grafico-de-mercado-y-como-leerlo.md): Con un gráfico en vivo del mercado de criptomonedas puedes identificar y analizar los movimientos de precios, patrones y tendencias para ejecutar tu estrategia de trading.
+- [¿Qué es un par de divisas y cómo encontrar el mercado en CEX.IO?](http://support.cex.io/es/articles/5637736-que-es-un-par-de-divisas-y-como-encontrar-el-mercado-en-cex-io.md)
+- [¿Qué es la liquidez y quiénes son los takers y los makers?](http://support.cex.io/es/articles/5637748-que-es-la-liquidez-y-quienes-son-los-takers-y-los-makers.md)
+
+### Cryptocurrency Tax Education Series
+
+- [Declaración de impuestos para usuarios de la UE/Reino Unido](http://support.cex.io/es/articles/15564871-declaracion-de-impuestos-para-usuarios-de-la-ue-reino-unido.md)
+- [¿Qué cambios habrá en los impuestos sobre las criptomonedas en 2026 para los usuarios de la UE/Reino Unido?](http://support.cex.io/es/articles/15564909-que-cambios-habra-en-los-impuestos-sobre-las-criptomonedas-en-2026-para-los-usuarios-de-la-ue-reino-unido.md)
+- [Preguntas frecuentes sobre la declaración de impuestos sobre criptomonedas para usuarios de la UE/Reino Unido](http://support.cex.io/es/articles/15564932-preguntas-frecuentes-sobre-la-declaracion-de-impuestos-sobre-criptomonedas-para-usuarios-de-la-ue-reino-unido.md)
+- [Cómo encontrar su número de identificación fiscal \(TIN\): una guía rápida por país para usuarios de la UE/Reino Unido.](http://support.cex.io/es/articles/15564943-como-encontrar-su-numero-de-identificacion-fiscal-tin-una-guia-rapida-por-pais-para-usuarios-de-la-ue-reino-unido.md)
