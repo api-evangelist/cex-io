@@ -1,0 +1,145 @@
+openapi: 3.2.0
+info:
+  title: CEX.IO Spot Trading Private REST Funding API
+  version: '2026-10-13'
+  description: Private (API-key signed) REST calls of the CEX.IO Spot Trading API. Limited per API key to 200 points per minute; 429 on exhaustion (per docs).
+  contact:
+    url: https://support.cex.io/en/
+  termsOfService: https://cex.io/terms
+servers:
+- url: https://trade.cex.io/api/spot/rest
+security:
+- XAggrKey: []
+  XAggrTimestamp: []
+  XAggrSignature: []
+tags:
+- name: Funding
+paths:
+  /do_my_internal_transfer:
+    post:
+      operationId: do_my_internal_transfer
+      summary: Internal Transfer
+      tags:
+      - Funding
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_processing_info:
+    post:
+      operationId: get_processing_info
+      summary: Processing Info
+      tags:
+      - Funding
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_deposit_address:
+    post:
+      operationId: get_deposit_address
+      summary: Deposit Address
+      tags:
+      - Funding
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /do_deposit_funds_from_wallet:
+    post:
+      operationId: do_deposit_funds_from_wallet
+      summary: Funds Deposit from Wallet
+      tags:
+      - Funding
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /do_withdrawal_funds_to_wallet:
+    post:
+      operationId: do_withdrawal_funds_to_wallet
+      summary: Funds Withdrawal to Wallet
+      tags:
+      - Funding
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+components:
+  securitySchemes:
+    XAggrKey:
+      type: apiKey
+      in: header
+      name: X-AGGR-KEY
+    XAggrTimestamp:
+      type: apiKey
+      in: header
+      name: X-AGGR-TIMESTAMP
+    XAggrSignature:
+      type: apiKey
+      in: header
+      name: X-AGGR-SIGNATURE
+      description: base64 HMAC-SHA256 of action + timestamp + JSON body, keyed with the API secret (per docs example).
+externalDocs:
+  url: https://trade.cex.io/docs/
+x-generated:
+  method: generated
+  from: documentation
+  engine: hand-transcribed by enrichment agent (claude-opus-5-5)
+  date: '2026-10-13'
+  note: No machine-readable contract is published by CEX.IO. Every path below appears verbatim on the cited docs page; request/response schemas are NOT modelled and must be read from the docs.

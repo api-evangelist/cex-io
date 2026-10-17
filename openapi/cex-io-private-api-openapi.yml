@@ -1,0 +1,434 @@
+openapi: 3.2.0
+info:
+  title: CEX.IO Exchange REST API (legacy) Private API
+  version: '2026-10-13'
+  description: 'The original CEX.IO Exchange REST API. Per docs: public methods limited to 600 requests per 10 minutes, private methods 2000 requests per 10 minutes.'
+  contact:
+    url: https://support.cex.io/en/
+  termsOfService: https://cex.io/terms
+servers:
+- url: https://cex.io/api
+tags:
+- name: Private
+paths:
+  /balance/:
+    post:
+      operationId: legacy_post_balance
+      summary: Account balance
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /open_orders/:
+    post:
+      operationId: legacy_post_open_orders
+      summary: Open orders
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /open_orders/{symbol1}/{symbol2}:
+    post:
+      operationId: legacy_post_open_orders_symbol1_symbol2
+      summary: Open orders by pair
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      parameters:
+      - name: symbol1
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: symbol2
+        in: path
+        required: true
+        schema:
+          type: string
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /open_orders/{symbol1}:
+    post:
+      operationId: legacy_post_open_orders_symbol1
+      summary: Open orders by symbol
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      parameters:
+      - name: symbol1
+        in: path
+        required: true
+        schema:
+          type: string
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /mass_cancel_place_orders:
+    post:
+      operationId: legacy_post_mass_cancel_place_orders
+      summary: Mass cancel place orders
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /active_orders_status:
+    post:
+      operationId: legacy_post_active_orders_status
+      summary: Active order status
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /archived_orders/{symbol1}/{symbol2}:
+    post:
+      operationId: legacy_post_archived_orders_symbol1_symbol2
+      summary: Archived orders
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      parameters:
+      - name: symbol1
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: symbol2
+        in: path
+        required: true
+        schema:
+          type: string
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /cancel_order/:
+    post:
+      operationId: legacy_post_cancel_order
+      summary: Cancel order
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /cancel_orders/{symbol1}/{symbol2}:
+    post:
+      operationId: legacy_post_cancel_orders_symbol1_symbol2
+      summary: Cancel all orders for given pair
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      parameters:
+      - name: symbol1
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: symbol2
+        in: path
+        required: true
+        schema:
+          type: string
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /place_order/{symbol1}/{symbol2}:
+    post:
+      operationId: legacy_post_place_order_symbol1_symbol2
+      summary: Place order
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      parameters:
+      - name: symbol1
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: symbol2
+        in: path
+        required: true
+        schema:
+          type: string
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /get_order/:
+    post:
+      operationId: legacy_post_get_order
+      summary: Get order details
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /get_order_tx/:
+    post:
+      operationId: legacy_post_get_order_tx
+      summary: Get order transactions
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /get_address/:
+    post:
+      operationId: legacy_post_get_address
+      summary: Get crypto address
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /get_crypto_address:
+    post:
+      operationId: legacy_post_get_crypto_address
+      summary: Get crypto addresses for all blockchains
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /get_myfee/:
+    post:
+      operationId: legacy_post_get_myfee
+      summary: Get my fee
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+  /cancel_replace_order/{symbol1}/{symbol2}:
+    post:
+      operationId: legacy_post_cancel_replace_order_symbol1_symbol2
+      summary: Cancel replace order
+      tags:
+      - Private
+      x-source: https://docs.cex.io/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+      parameters:
+      - name: symbol1
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: symbol2
+        in: path
+        required: true
+        schema:
+          type: string
+      description: 'Private method: authenticated with an API key, signature and nonce (see docs.cex.io Authentication).'
+externalDocs:
+  url: https://docs.cex.io/
+x-generated:
+  method: generated
+  from: documentation
+  engine: hand-transcribed by enrichment agent (claude-opus-5-5)
+  date: '2026-10-13'
+  note: No machine-readable contract is published by CEX.IO. Every path below appears verbatim on the cited docs page; request/response schemas are NOT modelled and must be read from the docs.

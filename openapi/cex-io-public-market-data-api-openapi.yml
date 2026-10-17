@@ -1,0 +1,197 @@
+openapi: 3.2.0
+info:
+  title: CEX.IO Spot Trading Public REST Public Market Data API
+  version: '2026-10-13'
+  description: Public REST calls of the CEX.IO Spot Trading API. Limited per IP to 100 points per minute; 429 on exhaustion (per docs).
+  contact:
+    url: https://support.cex.io/en/
+  termsOfService: https://cex.io/terms
+servers:
+- url: https://trade.cex.io/api/spot/rest-public
+tags:
+- name: Public Market Data
+paths:
+  /get_order_book:
+    post:
+      operationId: public_get_order_book
+      summary: Order Book
+      tags:
+      - Public Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      description: Receive current order book snapshot for a specific trading pair.
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_candles:
+    post:
+      operationId: public_get_candles
+      summary: Candles
+      tags:
+      - Public Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      description: Receive historical candles for a trading pair at different resolutions.
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_trade_history:
+    post:
+      operationId: public_get_trade_history
+      summary: Trade History
+      tags:
+      - Public Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      description: Receive trades matching timeframe, tradeId range and side filters.
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_ticker:
+    post:
+      operationId: public_get_ticker
+      summary: Ticker
+      tags:
+      - Public Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      description: Receive public ticker information.
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_server_time:
+    post:
+      operationId: public_get_server_time
+      summary: Server Time
+      tags:
+      - Public Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      description: Get the current time on the Spot Trading server.
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_pairs_info:
+    post:
+      operationId: public_get_pairs_info
+      summary: Pairs Info
+      tags:
+      - Public Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      description: Receive the parameters for all supported trading pairs.
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_currencies_info:
+    post:
+      operationId: public_get_currencies_info
+      summary: Currencies Info
+      tags:
+      - Public Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      description: Receive all currencies configured in CEX.IO Spot Trading and deposit/withdrawal availability.
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_processing_info:
+    post:
+      operationId: public_get_processing_info
+      summary: Processing Info
+      tags:
+      - Public Market Data
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      description: Receive processing information for deposits and withdrawals between CEX.IO Wallet and Spot Trading.
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+externalDocs:
+  url: https://trade.cex.io/docs/
+x-generated:
+  method: generated
+  from: documentation
+  engine: hand-transcribed by enrichment agent (claude-opus-5-5)
+  date: '2026-10-13'
+  note: No machine-readable contract is published by CEX.IO. Every path below appears verbatim on the cited docs page; request/response schemas are NOT modelled and must be read from the docs.

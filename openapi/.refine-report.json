@@ -1,0 +1,30 @@
+{
+  "provider": "cex-io",
+  "sources": [
+    "_ae-authored/cex-io-exchange-legacy-openapi-generated.yml",
+    "_ae-authored/cex-io-spot-private-openapi-generated.yml",
+    "_ae-authored/cex-io-spot-public-openapi-generated.yml"
+  ],
+  "outputs": [
+    "cex-io-private-api-openapi.yml",
+    "cex-io-public-api-openapi.yml",
+    "cex-io-accounts-api-openapi.yml",
+    "cex-io-fees-api-openapi.yml",
+    "cex-io-funding-api-openapi.yml",
+    "cex-io-history-api-openapi.yml",
+    "cex-io-market-data-api-openapi.yml",
+    "cex-io-orders-api-openapi.yml",
+    "cex-io-public-market-data-api-openapi.yml"
+  ],
+  "archived": [],
+  "errors": [],
+  "warnings": [],
+  "notes": [
+    "sourced from openapi/_original/ (0 archived document(s)); previously refined output at the top level was skipped rather than re-split",
+    "cex-io-exchange-legacy-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "cex-io-spot-private-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "cex-io-spot-public-openapi-generated.yml: upgraded openapi 3.1.0 -> OpenAPI 3.2.0",
+    "apis.yml register: written (+9 apis, 9 total)"
+  ],
+  "skipped": []
+}

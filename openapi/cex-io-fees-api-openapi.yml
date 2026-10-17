@@ -1,0 +1,103 @@
+openapi: 3.2.0
+info:
+  title: CEX.IO Spot Trading Private REST Fees API
+  version: '2026-10-13'
+  description: Private (API-key signed) REST calls of the CEX.IO Spot Trading API. Limited per API key to 200 points per minute; 429 on exhaustion (per docs).
+  contact:
+    url: https://support.cex.io/en/
+  termsOfService: https://cex.io/terms
+servers:
+- url: https://trade.cex.io/api/spot/rest
+security:
+- XAggrKey: []
+  XAggrTimestamp: []
+  XAggrSignature: []
+tags:
+- name: Fees
+paths:
+  /get_my_current_fee:
+    post:
+      operationId: get_my_current_fee
+      summary: Current Fee
+      tags:
+      - Fees
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_fee_strategy:
+    post:
+      operationId: get_fee_strategy
+      summary: Fee Strategy
+      tags:
+      - Fees
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+  /get_my_volume:
+    post:
+      operationId: get_my_volume
+      summary: Volume
+      tags:
+      - Fees
+      x-source: https://trade.cex.io/docs/
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Bad Request
+        '429':
+          description: API rate limit exceeded
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              additionalProperties: true
+components:
+  securitySchemes:
+    XAggrKey:
+      type: apiKey
+      in: header
+      name: X-AGGR-KEY
+    XAggrTimestamp:
+      type: apiKey
+      in: header
+      name: X-AGGR-TIMESTAMP
+    XAggrSignature:
+      type: apiKey
+      in: header
+      name: X-AGGR-SIGNATURE
+      description: base64 HMAC-SHA256 of action + timestamp + JSON body, keyed with the API secret (per docs example).
+externalDocs:
+  url: https://trade.cex.io/docs/
+x-generated:
+  method: generated
+  from: documentation
+  engine: hand-transcribed by enrichment agent (claude-opus-5-5)
+  date: '2026-10-13'
+  note: No machine-readable contract is published by CEX.IO. Every path below appears verbatim on the cited docs page; request/response schemas are NOT modelled and must be read from the docs.

@@ -76,38 +76,132 @@ common:
 - type: GitHubOrganization
   url: https://github.com/cexiolabs
 apis:
-- aid: cex-io:cex-io-spot-trading-api
-  name: CEX.IO Spot Trading API
-  description: 'REST and WebSocket API for the CEX.IO Spot Trading platform: public market data (order books, candles, tickers, trade history) and private account, order and funding operations, signed with API key and HMAC.'
+- aid: cex-io:cex-io-accounts-api
+  name: CEX.IO Accounts API
+  description: The Accounts API from CEX.IO — 4 operation(s) for accounts.
   humanURL: https://trade.cex.io/docs/
   baseURL: https://trade.cex.io/api/spot/rest
   tags:
-  - Trading
-  - Market Data
-  - Cryptocurrency
+  - Accounts
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/cex-io-spot-private-openapi-generated.yml
-  - type: OpenAPI
-    url: openapi/_ae-authored/cex-io-spot-public-openapi-generated.yml
+    url: openapi/cex-io-accounts-api-openapi.yml
   - type: Documentation
     url: https://trade.cex.io/docs/
-  image: https://static.cex.io/img/landing-img/index.png
-- aid: cex-io:cex-io-exchange-api
-  name: CEX.IO Exchange API (legacy)
-  description: The original CEX.IO Exchange REST API at cex.io/api (tickers, order book, OHLCV, balance, place/cancel order, trade history) with a WebSocket API at wss://ws.cex.io/ws/.
-  humanURL: https://docs.cex.io/
-  baseURL: https://cex.io/api
-  tags:
-  - Trading
-  - Market Data
-  - Cryptocurrency
-  properties:
-  - type: OpenAPI
-    url: openapi/_ae-authored/cex-io-exchange-legacy-openapi-generated.yml
   - type: Documentation
     url: https://docs.cex.io/
-  image: https://static.cex.io/img/landing-img/index.png
+- aid: cex-io:cex-io-fees-api
+  name: CEX.IO Fees API
+  description: The Fees API from CEX.IO — 3 operation(s) for fees.
+  humanURL: https://trade.cex.io/docs/
+  baseURL: https://trade.cex.io/api/spot/rest
+  tags:
+  - Fees
+  properties:
+  - type: OpenAPI
+    url: openapi/cex-io-fees-api-openapi.yml
+  - type: Documentation
+    url: https://trade.cex.io/docs/
+  - type: Documentation
+    url: https://docs.cex.io/
+- aid: cex-io:cex-io-funding-api
+  name: CEX.IO Funding API
+  description: The Funding API from CEX.IO — 5 operation(s) for funding.
+  humanURL: https://trade.cex.io/docs/
+  baseURL: https://trade.cex.io/api/spot/rest
+  tags:
+  - Funding
+  properties:
+  - type: OpenAPI
+    url: openapi/cex-io-funding-api-openapi.yml
+  - type: Documentation
+    url: https://trade.cex.io/docs/
+  - type: Documentation
+    url: https://docs.cex.io/
+- aid: cex-io:cex-io-history-api
+  name: CEX.IO History API
+  description: The History API from CEX.IO — 2 operation(s) for history.
+  humanURL: https://trade.cex.io/docs/
+  baseURL: https://trade.cex.io/api/spot/rest
+  tags:
+  - History
+  properties:
+  - type: OpenAPI
+    url: openapi/cex-io-history-api-openapi.yml
+  - type: Documentation
+    url: https://trade.cex.io/docs/
+  - type: Documentation
+    url: https://docs.cex.io/
+- aid: cex-io:cex-io-market-data-api
+  name: CEX.IO Market Data API
+  description: The Market Data API from CEX.IO — 4 operation(s) for market data.
+  humanURL: https://trade.cex.io/docs/
+  baseURL: https://trade.cex.io/api/spot/rest
+  tags:
+  - Market Data
+  properties:
+  - type: OpenAPI
+    url: openapi/cex-io-market-data-api-openapi.yml
+  - type: Documentation
+    url: https://trade.cex.io/docs/
+  - type: Documentation
+    url: https://docs.cex.io/
+- aid: cex-io:cex-io-orders-api
+  name: CEX.IO Orders API
+  description: The Orders API from CEX.IO — 4 operation(s) for orders.
+  humanURL: https://trade.cex.io/docs/
+  baseURL: https://trade.cex.io/api/spot/rest
+  tags:
+  - Orders
+  properties:
+  - type: OpenAPI
+    url: openapi/cex-io-orders-api-openapi.yml
+  - type: Documentation
+    url: https://trade.cex.io/docs/
+  - type: Documentation
+    url: https://docs.cex.io/
+- aid: cex-io:cex-io-private-api
+  name: CEX.IO Private API
+  description: The Private API from CEX.IO — 16 operation(s) for private.
+  humanURL: https://trade.cex.io/docs/
+  baseURL: https://trade.cex.io/api/spot/rest
+  tags:
+  - Private
+  properties:
+  - type: OpenAPI
+    url: openapi/cex-io-private-api-openapi.yml
+  - type: Documentation
+    url: https://trade.cex.io/docs/
+  - type: Documentation
+    url: https://docs.cex.io/
+- aid: cex-io:cex-io-public-api
+  name: CEX.IO Public API
+  description: The Public API from CEX.IO — 11 operation(s) for public.
+  humanURL: https://trade.cex.io/docs/
+  baseURL: https://trade.cex.io/api/spot/rest
+  tags:
+  - Public
+  properties:
+  - type: OpenAPI
+    url: openapi/cex-io-public-api-openapi.yml
+  - type: Documentation
+    url: https://trade.cex.io/docs/
+  - type: Documentation
+    url: https://docs.cex.io/
+- aid: cex-io:cex-io-public-market-data-api
+  name: CEX.IO Public Market Data API
+  description: The Public Market Data API from CEX.IO — 8 operation(s) for public market data.
+  humanURL: https://trade.cex.io/docs/
+  baseURL: https://trade.cex.io/api/spot/rest
+  tags:
+  - Public Market Data
+  properties:
+  - type: OpenAPI
+    url: openapi/cex-io-public-market-data-api-openapi.yml
+  - type: Documentation
+    url: https://trade.cex.io/docs/
+  - type: Documentation
+    url: https://docs.cex.io/
 x-coverage:
   state: none
   reason: no-developer-program
