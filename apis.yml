@@ -12,6 +12,14 @@ modified: '2026-10-13'
 tags:
 - Company
 - Cryptocurrency
+- Exchange
+- Trading
+- Market Data
+- WebSocket
+- Financial Services
+tags_raw:
+- Company
+- Cryptocurrency
 - Exchanges
 - Trading
 - Market Data
@@ -82,6 +90,8 @@ apis:
   humanURL: https://trade.cex.io/docs/
   baseURL: https://trade.cex.io/api/spot/rest
   tags:
+  - Account
+  tags_raw:
   - Accounts
   properties:
   - type: OpenAPI
@@ -152,6 +162,8 @@ apis:
   humanURL: https://trade.cex.io/docs/
   baseURL: https://trade.cex.io/api/spot/rest
   tags:
+  - Order
+  tags_raw:
   - Orders
   properties:
   - type: OpenAPI
