@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-CEX.IO is a company surfaced via the API Evangelist harvest backlog (source: market-gap:crypto-exchanges) and added to the network as a stub for full-pipeline profiling.
-- https://cex.io
+CEX.IO is a cryptocurrency exchange founded in 2013 offering spot trading, buying and selling crypto with cards and bank transfers, staking and earn products, and a Prime brokerage service. It publishes two developer surfaces: the CEX.IO Spot Trading API (REST and WebSocket under trade.cex.io/api/spot) and the legacy CEX.IO Exchange API (REST under cex.io/api and WebSocket at ws.cex.io), both authenticated with API keys and HMAC signatures.
+
+**Areas:** Company · Cryptocurrency · Exchange · Trading · Market Data · WebSocket · Financial Services
+
+## CEX.IO on APIs.io
+
+Everything profiled for CEX.IO is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/cex-io/](https://apis.io/providers/cex-io/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [CEX.IO Accounts API](https://apis.io/apis/cex-io/cex-io-accounts-api/) — The Accounts API from CEX.IO — 4 operation(s) for accounts.
+- [CEX.IO Fees API](https://apis.io/apis/cex-io/cex-io-fees-api/) — The Fees API from CEX.IO — 3 operation(s) for fees.
+- [CEX.IO Funding API](https://apis.io/apis/cex-io/cex-io-funding-api/) — The Funding API from CEX.IO — 5 operation(s) for funding.
+- [CEX.IO History API](https://apis.io/apis/cex-io/cex-io-history-api/) — The History API from CEX.IO — 2 operation(s) for history.
+- [CEX.IO Market Data API](https://apis.io/apis/cex-io/cex-io-market-data-api/) — The Market Data API from CEX.IO — 4 operation(s) for market data.
+- [CEX.IO Orders API](https://apis.io/apis/cex-io/cex-io-orders-api/) — The Orders API from CEX.IO — 4 operation(s) for orders.
+- [CEX.IO Private API](https://apis.io/apis/cex-io/cex-io-private-api/) — The Private API from CEX.IO — 16 operation(s) for private.
+- [CEX.IO Public API](https://apis.io/apis/cex-io/cex-io-public-api/) — The Public API from CEX.IO — 11 operation(s) for public.
+- [CEX.IO Public Market Data API](https://apis.io/apis/cex-io/cex-io-public-market-data-api/) — The Public Market Data API from CEX.IO — 8 operation(s) for public market data.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### MCP servers (1)
+
+Model Context Protocol servers that expose the API to agents.
+
+- [CEX.IO MCP Server (candidate)](https://apis.io/servers/cex-io/cex-io-mcp-server-candidate/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [CEX.IO API Rules](https://apis.io/rules/cex-io/cex-io-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Cex Io Authentication](https://apis.io/security/cex-io/cex-io-authentication/)
+- [Cex Io Domain Security](https://apis.io/security/cex-io/cex-io-domain-security/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Cex Io Rate Limits](https://apis.io/rate-limits/cex-io/cex-io-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://cex.io)
+- [Documentation](https://docs.cex.io/)
+- [Getting started](https://support.cex.io/en/articles/4383397-getting-started)
+- [API reference](https://trade.cex.io/docs/)
+- [Pricing](https://cex.io/prices)
+- [Support](https://support.cex.io/en/)
+- [Blog](https://blog.cex.io/)
+- [Terms of service](https://cex.io/terms)
+- [Privacy policy](https://cex.io/legal/privacy)
+- [GitHub](https://github.com/cexiolabs)
+
+## API Evangelist rating
+
+**Kin Score 45.7** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 82.1 |
+| Contract quality | 47.1 |
+| Contract governance | 22.0 |
+| Operational transparency | 47.4 |
+| Developer ergonomics | 54.8 |
+| Access clarity | 31.6 |
+
+**Agent readiness 22.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | documented (partial credit) |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 23.1** — Securities & Market Data
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/cex-io/](https://apis.io/providers/cex-io/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for CEX.IO: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/cex-io/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
